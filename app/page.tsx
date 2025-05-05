@@ -1,14 +1,12 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { lineSpinner } from "ldrs";
-import Link from "next/link";
-import Nav from "@/components/nav";
 import { FaCompactDisc } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import Sidebar from "@/components/home/sidebar";
 import { IoMdArrowRoundForward } from "react-icons/io";
 
-const page = () => {
+const Page = () => {
   lineSpinner.register();
 
   const [loading, setLoading] = useState(true);
@@ -134,4 +132,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
