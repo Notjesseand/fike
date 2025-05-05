@@ -18,7 +18,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="font-nunito  b-[#FAC898] bg-[#ff964f] pb-56">
+    <div className="font-nunito  b-[#FAC898] bg-[#ff964f]">
       <div className="pt-6 px-5 md:px-14 flex justify-between">
         <p className="text-2xl sm:text-3xl font-montserrat font-bold flex items-center">
           <FaCompactDisc className="mx-1 md:mx-2" />
@@ -111,6 +111,9 @@ const Page = () => {
             </p>
           </a>
         </div>
+      </div>
+      <div className="flex pt-40 text-lg pb-7 text-center justify-center font-semibold">
+        © <p>All Rights Reserved</p>
       </div>
     </div>
   );
