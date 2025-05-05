@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Fike",
   description: "MUSIC BY HIM",
+  icons: {
+    icon: "/disc3.png", // path relative to /public
+  },
 };
 
 export default function RootLayout({
