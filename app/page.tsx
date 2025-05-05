@@ -1,14 +1,11 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { lineSpinner } from "ldrs";
 import { FaCompactDisc } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import Sidebar from "@/components/home/sidebar";
 import { IoMdArrowRoundForward } from "react-icons/io";
 
 const Page = () => {
-  lineSpinner.register();
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -19,19 +16,6 @@ const Page = () => {
     // Cleanup timeout on unmount
     return () => clearTimeout(timer);
   }, []);
-
-  // if (loading) {
-  //   return (
-  //     <div className="h-screen w-screen flex justify-center items-center bg-[#ff964f]">
-  //       <l-line-spinner
-  //         size="40"
-  //         stroke="3"
-  //         speed="1"
-  //         color="black"
-  //       ></l-line-spinner>
-  //     </div>
-  //   );
-  // }
 
   return (
     <div className="font-nunito  b-[#FAC898] bg-[#ff964f] pb-56">
