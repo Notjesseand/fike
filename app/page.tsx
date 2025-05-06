@@ -129,7 +129,9 @@ const Page = () => {
     //   </div>
     // </div>
     <div className="flex flex-col items-center h-screen justify-center">
-      <p className="text-5xl text-center font-montserrat ">Fuck You!</p>
+      <p className="text-5xl text-center font-montserrat flicker-4">
+        Fuck You!
+      </p>
     </div>
   );
 };
