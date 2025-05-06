@@ -59,7 +59,7 @@ const Page = () => {
           >
             <p className="text-lg font-montserrat font-bold flex items-center justify-center">
               Youtube Music{" "}
-              <IoMdArrowRoundForward className="text-xl items-center ml-1 mt-0.5" />
+              <IoMdArrowRoundForward className="text-xl items-center ml-2 mt-0.5 jello-horizontal" />{" "}
             </p>
           </a>
           {/* apple */}
@@ -71,7 +71,19 @@ const Page = () => {
           >
             <p className="text-lg font-montserrat font-bold flex items-center justify-center">
               Apple Music
-              <IoMdArrowRoundForward className="text-xl items-center ml-1 mt-0.5" />
+              <IoMdArrowRoundForward className="text-xl items-center ml-2 mt-0.5 jello-horizontal" />{" "}
+            </p>
+          </a>
+          {/* Spotify */}
+          <a
+            href="https://open.spotify.com/artist/7ojtOGr5RoVneSEa741KvG?si=oq1-Dv-FSqSw7ymV4gBesw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=""
+          >
+            <p className="text-lg font-montserrat font-bold flex items-center justify-center">
+              Spotify
+              <IoMdArrowRoundForward className="text-xl items-center ml-2 mt-0.5 jello-horizontal" />{" "}
             </p>
           </a>
           {/* Deezer */}
@@ -83,7 +95,7 @@ const Page = () => {
           >
             <p className="text-lg font-montserrat font-bold flex items-center justify-center">
               Deezer
-              <IoMdArrowRoundForward className="text-xl items-center ml-1 mt-0.5" />
+              <IoMdArrowRoundForward className="text-xl items-center ml-2 mt-0.5 jello-horizontal" />
             </p>
           </a>
           {/* Tidal */}
@@ -95,7 +107,7 @@ const Page = () => {
           >
             <p className="text-lg font-montserrat font-bold flex items-center justify-center">
               Tidal
-              <IoMdArrowRoundForward className="text-xl items-center ml-1 mt-0.5" />
+              <IoMdArrowRoundForward className="text-xl items-center ml-2 mt-0.5 jello-horizontal" />
             </p>
           </a>
           {/* soundcloud */}
@@ -107,7 +119,7 @@ const Page = () => {
           >
             <p className="text-lg font-montserrat font-bold flex items-center justify-center">
               SoundCloud
-              <IoMdArrowRoundForward className="text-xl items-center ml-1 mt-0.5" />
+              <IoMdArrowRoundForward className="text-xl items-center ml-2 mt-0.5 jello-horizontal" />{" "}
             </p>
           </a>
         </div>
